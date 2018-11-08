@@ -1,6 +1,8 @@
 require "migration_comments/version"
 require "migration_comments/schema_formatter"
 
+require 'active_support/core_ext/class/subclasses'
+
 require 'migration_comments/active_record/schema_dumper'
 require 'migration_comments/active_record/connection_adapters/comment_definition'
 require 'migration_comments/active_record/connection_adapters/column_definition'
